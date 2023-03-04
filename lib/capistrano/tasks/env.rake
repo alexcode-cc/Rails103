@@ -1,4 +1,6 @@
+#namespace :debug do
 desc "Map Environment vars"
 task :map_envs do
-  Stage = fetch[:stage]
+  MY_STAGE = fetch[:stage]
 end
+#end
