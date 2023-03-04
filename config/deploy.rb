@@ -1,7 +1,7 @@
 # config valid for current version and patch releases of Capistrano
 lock "~> 3.17.2"
 
-set :application, "Rails101"
+set :application, "rails103"
 set :repo_url, "git@github.com:alexcode-cc/Rails103.git"
 
 # Default branch is :master

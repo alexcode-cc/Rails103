@@ -16,7 +16,7 @@ gem 'capistrano-passenger'
 gem 'capistrano-rvm'
 gem 'ed25519', '>= 1.2'
 gem 'bcrypt_pbkdf', '>= 1.0'
-gem 'date', '>= 3.3.3'
+#gem 'date', '>= 3.3.3'
  
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
@@ -36,7 +36,7 @@ gem 'jbuilder', '~> 2.5'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
+gem 'bcrypt', '~> 3.1.7'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
