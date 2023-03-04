@@ -8,7 +8,7 @@
 # server "db.example.com", user: "deploy", roles: %w{db}
 
 #SSHKit.config.default_env[:Stage] = "Staging"
-set :default_env, { Stage: "Staging" }
+set :default_env, { STAGE: "Staging" }
 #set :default_environment, { 
 #    'Stage' => 'staging'
 #}
