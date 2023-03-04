@@ -16,7 +16,8 @@ gem 'capistrano-passenger'
 gem 'capistrano-rvm'
 gem 'ed25519', '>= 1.2'
 gem 'bcrypt_pbkdf', '>= 1.0'
-
+gem 'date', '>= 3.3.3'
+ 
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
