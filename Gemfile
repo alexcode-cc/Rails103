@@ -10,6 +10,13 @@ end
 gem 'rails', '~> 5.1.7'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
+# Use Capistrano for app deploy
+gem 'capistrano-rails'
+gem 'capistrano-passenger'
+gem 'capistrano-rvm'
+gem 'ed25519', '>= 1.2'
+gem 'bcrypt_pbkdf', '>= 1.0'
+
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
