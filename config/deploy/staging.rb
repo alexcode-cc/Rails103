@@ -7,10 +7,12 @@
 # server "example.com", user: "deploy", roles: %w{app web}, other_property: :other_value
 # server "db.example.com", user: "deploy", roles: %w{db}
 
-#set :default_env, { stage: "staging" }
-set :default_environment, { 
-    'Stage' => 'staging'
-}
+SSHKit.config.default_env[:Stage] = "Staging"
+#set :default_env, { Stage: "Staging" }
+#set :default_environment, { 
+#    'Stage' => 'staging'
+#}
+#default_run_options[:env] = { 'Stage' => 'Staging' }
 set :branch, "main"
 server "192.168.0.196", user: "deploy", roles: %w{app db web}, my_property: :my_value
 
