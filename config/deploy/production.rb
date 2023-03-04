@@ -7,7 +7,7 @@
 # server "example.com", user: "deploy", roles: %w{app web}, other_property: :other_value
 # server "db.example.com", user: "deploy", roles: %w{db}
 
-set :default_env, { DEPLOY_STAGE: "production" }
+#set :default_env, { DEPLOY_STAGE: "production" }
 set :branch, "main"
 server "192.168.0.196", user: "deploy", roles: %w{app db web}, my_property: :my_value
 
