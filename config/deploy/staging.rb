@@ -8,6 +8,9 @@
 # server "db.example.com", user: "deploy", roles: %w{db}
 
 #set :default_env, { stage: "staging" }
+set :default_environment, { 
+    'Stage' => 'staging'
+}
 set :branch, "main"
 server "192.168.0.196", user: "deploy", roles: %w{app db web}, my_property: :my_value
 
