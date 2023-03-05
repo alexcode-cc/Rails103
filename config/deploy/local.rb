@@ -8,7 +8,7 @@
 # server "db.example.com", user: "deploy", roles: %w{db}
 
 set :branch, "local"
-server "127.0.0.1", user: "deploy", roles: %w{app db web}, my_property: :my_value
+server "192.168.0.87", user: "deploy", roles: %w{app db web}, my_property: :my_value
 
 # role-based syntax
 # ==================
